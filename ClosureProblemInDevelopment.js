@@ -90,13 +90,10 @@ function createLog(i) {
 }
 
 
-// Problematic code
-// var items = document.querySelectorAll('.items');
-// for (var i = 0, max = items.length; i < max; i++) {
-//     (function(n) {
-//         var element = items[i];
-//         element.addEventListener('click', function() {
-//             console.log('you clicked on element number ' + n);
-//         });
-//     }(i));
-// }
+
+/**if  we can use let in this place we can solve the scope problem like this
+for (var i = 0; i < letNode.length; i++) {
+        let j = i;
+        letNode[i].addEventListener('click', function() { console.log(j); }
+ }
+**/
