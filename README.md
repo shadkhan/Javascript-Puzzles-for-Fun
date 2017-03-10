@@ -6,3 +6,4 @@ These are the programs mostly common in Computer science subject usually in C or
 I am adding some of the common problems in JavaScript development. May be it help to someone.
 
 
+I will add some of puzzle and question that I came across in interviews.
